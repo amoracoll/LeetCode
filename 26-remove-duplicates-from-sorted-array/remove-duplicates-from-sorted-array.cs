@@ -9,11 +9,13 @@ public class Solution {
 
         for (int i = 1; i < nums.Length; i++)
         {
-            if (nums[i] != nums[i - 1])
+            if (nums[i] == nums[i - 1])
             {
-                nums[writeIndex] = nums[i];
-                writeIndex++;
+                continue;    
             }
+
+            nums[writeIndex] = nums[i];
+            writeIndex++;
         }
 
         return writeIndex;
