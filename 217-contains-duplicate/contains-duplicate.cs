@@ -13,27 +13,5 @@ public class Solution {
         }
 
         return false;
-        
-        // bool result = false;
-        
-        // for (int i = 0; i < nums.Length; i++)
-        // {
-        //     for (int x = 0; x < nums.Length; x++)
-        //     {
-        //         if (i == x)
-        //         {
-        //             continue;
-        //         }
-
-        //         if (nums[i] != nums[x])
-        //         {
-        //             continue;
-        //         }
-
-        //         return true;
-        //     }
-        // }
-
-        // return false;
     }
 }
